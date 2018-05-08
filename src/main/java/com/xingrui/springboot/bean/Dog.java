@@ -9,6 +9,7 @@ package com.xingrui.springboot.bean;
 public class Dog {
     private String name;
     private Integer age;
+    private String sex;
 
     public String getName() {
         return name;
@@ -31,6 +32,16 @@ public class Dog {
         return "Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", sex='" + sex + '\'' +
                 '}';
     }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
 }
