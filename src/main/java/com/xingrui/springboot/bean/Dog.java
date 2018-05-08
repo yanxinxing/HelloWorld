@@ -10,6 +10,7 @@ public class Dog {
     private String name;
     private Integer age;
     private String sex;
+    private String color;
 
     public String getName() {
         return name;
@@ -21,6 +22,14 @@ public class Dog {
 
     public Integer getAge() {
         return age;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public void setAge(Integer age) {
